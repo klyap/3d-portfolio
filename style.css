@@ -1,0 +1,78 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+
+#canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+main {
+  width: 100vw;
+  position: absolute;
+  width: 100%;
+  margin: 0px;
+  z-index: 99;
+
+  padding: 100px 0px;
+  color: rgb(32, 24, 99);
+  font-family: 'Roboto Mono', monospace;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  color: rgb(221 218 241);
+  margin-top: 20%;
+  font-size: 5em;
+  text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+}
+h2 {
+  text-align: center;
+  color: rgb(221 218 241);
+  /* font-size: em; */
+  text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+}
+
+header {
+  margin-bottom: 300px;
+}
+
+blockquote {
+  text-align: center;
+  color: rgb(32, 24, 99);
+  font-family: 'Roboto Mono', monospace;
+}
+
+section {
+  width: 60%;
+  padding: 20px;
+  margin: 200px auto;
+  background-image: linear-gradient(rgba(167, 98, 245, 0.411), rgba(105, 226, 247, 0.349));
+  box-shadow:
+    3px 3px 0 #000,
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+blockquote {
+  margin-bottom: 100px;
+}
